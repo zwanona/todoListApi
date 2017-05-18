@@ -17,3 +17,5 @@ routes(app);
 app.listen(port);
 
 console.log('Your first node api is running on port: ' + port);
+
+module.exports = app;
