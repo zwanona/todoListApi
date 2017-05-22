@@ -152,7 +152,7 @@ describe('TodoList', () => {
       });
     });
 
-    it('should put a todo item and update the name value', (done) => {
+    it('should put a todo item and update the status value', (done) => {
       const item = new TodoItem({
         name: 'task name',
         status: 'inProgress'
